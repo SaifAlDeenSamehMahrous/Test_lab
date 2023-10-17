@@ -5,7 +5,7 @@ int sum(int a, int b, int c);
 
 int main()
 {
-	cout << "This line wont conflict";
+	cout << "This line wont dev";
 	cout << "guess why";
 	cout << "Dear Student!\n";
 	cout << "Let's try new concept!\n";
