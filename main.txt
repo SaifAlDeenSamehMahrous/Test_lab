@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int my_sum(int a, int b);
+
+int main()
+{
+	cout << "Dear Student!\n";
+	cout << "Let's try new concept!\n";
+	cout << "Learning git is fun\n";
+}
+
+int my_sum(int a, int b)
+{
+	return a+b;
+}
