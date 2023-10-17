@@ -10,6 +10,7 @@ int main()
 	cout << "Dear Student!\n";
 	cout << "Let's try new concept!\n";
 	cout << "Learning git is fun\n";
+	cout << "master add";
 }
 
 int sum2(int a, int b, int c)
