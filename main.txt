@@ -1,16 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int my_sum(int a, int b, int c);
+int sum(int a, int b, int c);
 
 int main()
 {
+	cout << "This line wont conflict";
+	cout << "guess why";
 	cout << "Dear Student!\n";
 	cout << "Let's try new concept!\n";
 	cout << "Learning git is fun\n";
 }
 
-int my_sum(int a, int b, int c)
+int sum(int a, int b, int c)
 {
 	return a+b+c;
 }
