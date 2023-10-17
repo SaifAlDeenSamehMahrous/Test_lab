@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int my_sum(int a, int b);
+int my_sum(int a, int b, int c);
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
 	cout << "Learning git is fun\n";
 }
 
-int my_sum(int a, int b)
+int my_sum(int a, int b, int c)
 {
-	return a+b;
+	return a+b+c;
 }
