@@ -15,5 +15,5 @@ int main()
 
 int sum2(int a, int b, int c)
 {
-	return a+b+c+4;
+	return a+b+c;
 }
