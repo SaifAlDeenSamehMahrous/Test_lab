@@ -3,6 +3,9 @@ using namespace std;
 
 int sum(int a, int b, int c);
 
+
+int diff(int a, int b, int c);
+
 int main()
 {
 	cout << "This line wont dev";
@@ -15,5 +18,10 @@ int main()
 
 int sum2(int a, int b, int c)
 {
-	return a+b+c+4;
+	return a+b+c;
+}
+
+int diff(int a, int b, int c)
+{
+	return a-b-c;
 }
