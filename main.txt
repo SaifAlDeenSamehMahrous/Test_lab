@@ -7,6 +7,7 @@ int sum(int a, int b, int c);
 int diff(int a, int b, int c);
 
 int mul(int a, int b, int c);
+
 int main()
 {
 	cout << "This line wont dev";
@@ -29,4 +30,11 @@ int diff(int a, int b, int c)
 int mul(int a, int b, int c)
 {
 	return a*b*c;
+}
+	return a+b+c;
+}
+
+int diff(int a, int b, int c)
+{
+	return a-b-c;
 }
