@@ -6,6 +6,8 @@ int sum(int a, int b, int c);
 
 int diff(int a, int b, int c);
 
+int mul(int a, int b, int c);
+
 int main()
 {
 	cout << "This line wont dev";
@@ -16,8 +18,19 @@ int main()
 	cout << "master add";
 }
 
-int sum2(int a, int b, int c)
+int sum(int a, int b, int c)
 {
+	return a+b+c;
+}
+
+int diff(int a, int b, int c)
+{
+	return a-b-c;
+}
+int mul(int a, int b, int c)
+{
+	return a*b*c;
+}
 	return a+b+c;
 }
 
