@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int sum(int a, int b, int c);
+int sum3(int a, int b, int c);
 
 
 int diff(int a, int b, int c);
@@ -18,7 +18,7 @@ int main()
 	cout << "master add";
 }
 
-int sum(int a, int b, int c)
+int sum3(int a, int b, int c)
 {
 	return a+b+c;
 }
