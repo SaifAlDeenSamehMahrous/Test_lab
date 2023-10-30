@@ -3,7 +3,6 @@ using namespace std;
 
 int sum3(int a, int b, int c);
 
-
 int diff(int a, int b, int c);
 
 int mul(int a, int b, int c);
